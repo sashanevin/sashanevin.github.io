@@ -1,1 +1,41 @@
-img {width:100px;}
+/* GLOBAL */
+
+body {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	line-height: 32px;
+}
+
+
+/* HOME PAGE */
+
+
+/* BIO PAGE */
+
+.bio h1 {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	line-height: 72px;
+}
+
+.bio h2,
+.bio h3, 
+.bio h4 {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-align: left;
+
+}
+.bio h1 {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+
+.bio article {
+	background: teal;
+	margin: 0 auto 0 auto;
+
+}
+.bio section {
+	float: left;
+	width: 500px;
+}
+
+/* STYLE TILE */
