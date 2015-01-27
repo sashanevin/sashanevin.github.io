@@ -11,9 +11,29 @@ body {
 
 /* BIO PAGE */
 
+	/* QUOTE */
+blockquote {
+    font-family: Impact;
+	line-height: 30px;
+	color: #FF9999;
+  	font-size:200%;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+body {
+
+
+}
+
 .bio h1 {
-	font-family: 'Arial Narrow', Arial, sans-serif;
-	line-height: 72px;
+	font-family: Impact;
+	line-height: 90px;
+	color: white;
+  	font-size:700%;
+  	text-transform: uppercase;
+	letter-spacing: 1px;
+
 }
 
 .bio h2,
@@ -21,21 +41,21 @@ body {
 .bio h4 {
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	text-align: left;
-
-}
-.bio h1 {
-	text-transform: uppercase;
-	letter-spacing: .5px;
 }
 
+	/* SALMON STRIP */
 .bio article {
-	background: teal;
-	margin: 0 auto 0 auto;
-
+	background: #FF9999;
+	width: 10000px;
+	height: 150px;
 }
+	/* CONTENT */
+
 .bio section {
+	margin-right: 20px;
+	margin-left: 20px;
 	float: left;
-	width: 500px;
+	width: 450px;
 }
 
 /* STYLE TILE */
