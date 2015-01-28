@@ -1,4 +1,5 @@
-/* GLOBAL */
+ /* GLOBAL */
+
 
 body {
 	font-family: 'Arial Narrow', Arial, sans-serif;
@@ -6,27 +7,54 @@ body {
 	margin: 30px;
 }
 
-
 /* HOME PAGE */
+nav {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* NAV */
+
+nav a:link {
+  color: #FF9999;
+  decoration: none;
+}
+
+nav a:visited {
+  color: #FF9999;
+}
+
+nav a:focus {
+  border: 2px solid red;
+}
+
+nav a:hover,
+nav a:active {
+  color: #6D6A6A;
+}
 
 
 /* BIO PAGE */
 
-.bio header {
-	background: #FF9999;
-	height: 250px;
+
+.bio body {
+    background-image: url("backgroundphoto.jpg");
 }
 
+.bio header {
+	background: #FF9999;
+	height: 150px;
+}
 
 	/* QUOTE */
 .bio blockquote {
     font-family: Impact;
 	line-height: 5px;
-	color: #6D6A6A;
+	color: white;
   	font-size: 220%;
 	letter-spacing: 3px;
 	text-align: left;
-	margin-top: -1.25em;	
+	margin-top: -1.25em;
+	margin-left: .2em;	
 }
 
 .bio h1 {
@@ -36,10 +64,6 @@ body {
   	font-size:750%;
   	text-transform: uppercase;
 	letter-spacing: 1px;
-}
-
-header h1:nth-child(2) {
-	margin-top: -.6em;
 }
 
 .bio h2,
@@ -62,7 +86,7 @@ header h1:nth-child(2) {
 	margin-right: 25px;
 	margin-left: 25px;
 	float: left;
-	width: 40%;
+	width: 35%;
 	color: #6D6A6A;
 }
 
@@ -70,4 +94,4 @@ header h1:nth-child(2) {
 	width: 90%;
 }
 
-/* STYLE TILE */
+/* STYLE TILE 
