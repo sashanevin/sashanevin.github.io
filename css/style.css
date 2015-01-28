@@ -1,8 +1,11 @@
 /* GLOBAL */
 
+
+
 body {
 	font-family: 'Arial Narrow', Arial, sans-serif;
 	line-height: 32px;
+	margin: 20px;
 }
 
 
@@ -11,26 +14,27 @@ body {
 
 /* BIO PAGE */
 
-	/* QUOTE */
-blockquote {
-    font-family: Impact;
-	line-height: 30px;
-	color: #FF9999;
-  	font-size:200%;
-	letter-spacing: 1px;
-	text-align: center;
+.bio header {
+	background: #FF9999;
+	height: 200px;
 }
 
-body {
 
-
+	/* QUOTE */
+.bio blockquote {
+    font-family: Impact;
+	line-height: 5px;
+	color: #6D6A6A;
+  	font-size:220%;
+	letter-spacing: 3px;
+	text-align: left;
 }
 
 .bio h1 {
 	font-family: Impact;
 	line-height: 90px;
 	color: white;
-  	font-size:700%;
+  	font-size:750%;
   	text-transform: uppercase;
 	letter-spacing: 1px;
 
@@ -41,21 +45,23 @@ body {
 .bio h4 {
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	text-align: left;
+	color: #FF9999;
 }
 
-	/* SALMON STRIP */
-.bio article {
-	background: #FF9999;
-	width: 10000px;
-	height: 150px;
+.bio h3,
+.bio h4 {
+	font-family: 'Arial Narrow', Arial, sans-serif;
 }
+
+
 	/* CONTENT */
 
 .bio section {
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 25px;
+	margin-left: 25px;
 	float: left;
 	width: 450px;
+	color: #6D6A6A;
 }
 
 /* STYLE TILE */
