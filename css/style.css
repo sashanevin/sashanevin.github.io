@@ -15,21 +15,21 @@ nav {
 /* NAV */
 
 nav a:link {
-  color: #FF9999;
-  decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 nav a:visited {
-  color: #FF9999;
+  color: white;
 }
 
 nav a:focus {
-  border: 2px solid red;
+  border: 2px white;
 }
 
 nav a:hover,
 nav a:active {
-  color: #6D6A6A;
+  color: white;
 }
 
 
@@ -47,6 +47,15 @@ img {
 .bio body {
     background-image: url("backgroundphoto.jpg");
 }
+
+.menubar {
+	text-align: center;
+	padding: 10px;
+	background: #6D6A6A;
+	height: 30px;
+	margin: 20px;
+}
+
 
 .bio header {
 	padding: 10px;
