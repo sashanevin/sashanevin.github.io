@@ -35,14 +35,23 @@ nav a:active {
 
 /* BIO PAGE */
 
+img {
+	max-height:100%;
+	max-width: 100%;
+	float: right;
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
 
 .bio body {
     background-image: url("backgroundphoto.jpg");
 }
 
 .bio header {
+	padding: 10px;
 	background: #FF9999;
-	height: 150px;
+	height: 160px;
 }
 
 	/* QUOTE */
@@ -50,20 +59,21 @@ nav a:active {
     font-family: Impact;
 	line-height: 5px;
 	color: white;
-  	font-size: 220%;
-	letter-spacing: 3px;
+  	font-size: 165%;
+	letter-spacing: 0.5px;
 	text-align: left;
-	margin-top: -1.25em;
-	margin-left: .2em;	
+	margin-top: -1em;
 }
 
 .bio h1 {
 	font-family: Impact;
 	line-height: 90px;
 	color: white;
-  	font-size:750%;
+  	font-size:800%;
   	text-transform: uppercase;
 	letter-spacing: 1px;
+	margin-top: -5px;
+	margin-left: -18px;
 }
 
 .bio h2,
