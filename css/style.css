@@ -112,19 +112,18 @@ img {
 
 /* -----------STYLE TILE------------*/
 .container {
-	background-color: orange;
+	background-image: url ("../img/bgstyletile.jpg");
 }
 
 .header {
 	background-color: orange;
 }
-img {
+.container img {
 	max-width: 100%;
 }
 
-section {
+.container section {
 	margin: 20px 0;
-	background-color: white;
 }
  
 .color-1,
