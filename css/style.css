@@ -156,7 +156,7 @@ body.style-tile {
 	font-size: 5.625em; /* 45 / 16 = 2.8125em */ 
 	font-style: normal;
 	font-variant: normal; 
-	margin-bottom: -5px;
+	margin-bottom: 0px;
 	color: #FA8072;
 	margin-left: -2.5px;
 	
@@ -168,7 +168,7 @@ body.style-tile {
 	font-size: 3em; /* 48 / 16 = 3em */
 	font-style: normal;
 	font-variant: normal;
-	margin-bottom: -5px;
+	margin-bottom: 5px;
 	color: #182e6f;
 	margin-left: -2.5px;
 	margin-top: -10px;
@@ -180,7 +180,7 @@ body.style-tile {
 	font-size: 2em; /* 32 / 16 = 2em */
 	font-style: normal;
 	font-variant: normal;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	color: #182e6f;
 	margin-left: -2.5px;
 	margin-top: -10px;
