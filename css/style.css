@@ -116,17 +116,30 @@ img {
 
 /* -----------STYLE TILE------------*/
 
+
+
+
+
+
+
 /* LOGO IMAGE */
 .style-tile .container img {
-	max-width: 100%;
+	width: 40%;
+    min-width: 30%;
+    max-width: 500px;
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 50px;
+	margin-top: 100px;
 }
 
 /* EVERYTHING IN WHITE CONTAINER */
 .style-tile .container {
 	background-color: white;
 	border-radius: 50px;
-	margin: 50px;
+	margin: 75px;
 	padding: 50px;
+	min-width: 740px;
 
 }
 
@@ -174,6 +187,27 @@ body.style-tile {
 }
 
 
+/* NAV */
+
+.style-tile a:link {
+  color: #FA8072;
+  text-decoration: none;
+}
+
+.style-tile a:visited {
+  color: #182E6F;
+}
+
+.style-tile a:focus {
+  border: 2px #FA8072;
+}
+
+.style-tile a:hover,
+.style-tile a:active {
+  color: #182E6F;
+}
+
+
 /* override margins in top fonts */
 #top p {
 	margin-top: -10px;
@@ -187,8 +221,11 @@ body.style-tile {
 .container section {
 	margin: 20px 0;
 }
+#top {
+	display: block;
+}
 
-.top p {
+#top p {
 	margin-top: -20px;
 }
 
@@ -203,7 +240,7 @@ body.style-tile {
 .style-tile .imagery-2,
 .style-tile .imagery-3 {
 	border: 1px solid #000;
-	float: left;
+	float: right;
 	margin: 10px 20px;
 	height: 100px;
 	width: 100px;
@@ -212,12 +249,13 @@ body.style-tile {
 .style-tile .pattern-1,
 .style-tile .pattern-2,
 .style-tile .pattern-3 {
-	float: left;
+	float: right;
 }
 
 
 /* Set Your Own Typography */
- 
+
+
  
 /* Set Your Own Margin & Padding */
 
