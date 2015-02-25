@@ -131,12 +131,19 @@ body.style-tile {
 }
 
 
-.style-tile .header {
+.style-tile .header  h1 {
 	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-	font-size: 24px;
+	font-size: 5.625em; /* 45 / 16 = 2.8125em */
 	font-style: normal;
 	font-variant: normal;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: -30px;
+	color: white;
+	background-color: #FF9999;
+	height: 100px;
 }
+
 .container img {
 	max-width: 100%;
 }
