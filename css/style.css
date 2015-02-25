@@ -110,13 +110,32 @@ img {
 	width: 90%;
 }
 
+
+
+
+
+
+
 /* -----------STYLE TILE------------*/
-.container {
-	background-image: url ("../img/bgstyletile.jpg");
+
+
+
+
+
+
+
+body.style-tile {
+	background-image: url("../img/bgstyletile.png");
+	background-size: cover;
+
 }
 
-.header {
-	background-color: orange;
+
+.style-tile .header {
+	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
 }
 .container img {
 	max-width: 100%;
@@ -125,32 +144,46 @@ img {
 .container section {
 	margin: 20px 0;
 }
- 
-.color-1,
-.color-2,
-.color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3, 
-.imagery-1,
-.imagery-2,
-.imagery-3 {
-	border: 1px solid #000;
+
+.style-tile .color-1,
+.style-tile .color-1,
+.style-tile .color-2,
+.style-tile .color-3,
+.style-tile .pattern-1,
+.style-tile .pattern-2,
+.style-tile .pattern-3, 
+.style-tile .imagery-1,
+.style-tile .imagery-2,
+.style-tile .imagery-3 {
+	border: 3px solid #000;
 	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	margin: 10px 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.style-tile .pattern-1,
+.style-tile .pattern-2,
+.style-tile .pattern-3 {
+	float: left;
 }
  
 /* Set Your Own Typography */
  
  
 /* Set Your Own Margin & Padding */
-h2, h3, p {
+.style-tile h2, h3, p {
 	margin: 0;
 }
  
-/* Clearfix - Oo Not Remove */
+/* Clearfix - Do Not Remove */
+.style-tile .clearfix {
+  	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
 
 
 
