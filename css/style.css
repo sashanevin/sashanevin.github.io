@@ -3,8 +3,6 @@
 
 body {
 	font-family: 'Arial Narrow', Arial, sans-serif;
-	line-height: 32px;
-	margin: 30px;
 }
 
 /* HOME PAGE */
@@ -118,31 +116,69 @@ img {
 
 /* -----------STYLE TILE------------*/
 
+/* LOGO IMAGE */
+.style-tile .container img {
+	max-width: 100%;
+}
 
+/* EVERYTHING IN WHITE CONTAINER */
+.style-tile .container {
+	background-color: white;
+	border-radius: 50px;
+	margin: 50px;
+	padding: 50px;
 
-
-
+}
 
 
 body.style-tile {
 	background-image: url("../img/bgstyletile.png");
 	background-size: cover;
-
 }
 
 
-.style-tile .header  h1 {
-	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
-	font-size: 5.625em; /* 45 / 16 = 2.8125em */
+/* HEADER 1 */
+.style-tile .header h1 {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 5.625em; /* 45 / 16 = 2.8125em */ 
+	font-style: normal;
+	font-variant: normal; 
+	margin-bottom: -5px;
+	color: #FA8072;
+	margin-left: -2.5px;
+	
+}
+
+/* Primary Header */
+.style-tile .primary h2 {
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 3em; /* 48 / 16 = 3em */
 	font-style: normal;
 	font-variant: normal;
-	padding: 20px;
-	margin-bottom: 20px;
-	margin-left: -30px;
-	color: white;
-	background-color: #FF9999;
-	height: 100px;
+	margin-bottom: -5px;
+	color: #182e6f;
+	margin-left: -2.5px;
+	margin-top: -10px;
 }
+
+/* Secondary Header */
+.style-tile .secondary h3 {
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 2em; /* 32 / 16 = 2em */
+	font-style: normal;
+	font-variant: normal;
+	margin-bottom: 5px;
+	color: #182e6f;
+	margin-left: -2.5px;
+	margin-top: -10px;
+}
+
+
+/* override margins in top fonts */
+#top p {
+	margin-top: -10px;
+}
+
 
 .container img {
 	max-width: 100%;
@@ -150,6 +186,10 @@ body.style-tile {
 
 .container section {
 	margin: 20px 0;
+}
+
+.top p {
+	margin-top: -20px;
 }
 
 .style-tile .color-1,
@@ -162,9 +202,9 @@ body.style-tile {
 .style-tile .imagery-1,
 .style-tile .imagery-2,
 .style-tile .imagery-3 {
-	border: 3px solid #000;
+	border: 1px solid #000;
 	float: left;
-	margin: 10px 10px;
+	margin: 10px 20px;
 	height: 100px;
 	width: 100px;
 }
@@ -174,13 +214,15 @@ body.style-tile {
 .style-tile .pattern-3 {
 	float: left;
 }
- 
+
+
 /* Set Your Own Typography */
  
  
 /* Set Your Own Margin & Padding */
-.style-tile h2, h3, p {
-	margin: 0;
+
+.style-tile .top em {
+	margin-top: 0px;
 }
  
 /* Clearfix - Do Not Remove */
