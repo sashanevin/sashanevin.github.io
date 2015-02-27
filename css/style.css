@@ -12,22 +12,40 @@ nav {
 
 /* NAV */
 
-nav a:link {
-  color: white;
+.home a:link {
+  color: #FA8072;
+  text-align: center;
   text-decoration: none;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s ease-in;
 }
 
-nav a:visited {
+.home a:visited {
+  color: #182E6F;
+}
+
+.home a:focus {
+  border: 2px #FA8072;
+}
+
+.home a:hover,
+.home a:active {
   color: white;
+
 }
 
-nav a:focus {
-  border: 2px white;
-}
+.home nav {
+	font-size: 150%;
+	text-align: center;
+	padding: 15px;
+	border-top: 2px dotted #FA8072;
+  	color: #FA8072;
+  	height: 1px;
+  	width: 100%;
+  	margin-bottom: 100px;
 
-nav a:hover,
-nav a:active {
-  color: white;
+
 }
 
 
