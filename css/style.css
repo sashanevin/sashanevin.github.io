@@ -345,6 +345,7 @@ body.style-tile {
 
 
 
+/*--------------------- PORTFOLIO PAGE -----------------*/
 
 
 
@@ -357,6 +358,103 @@ body.style-tile {
 
 
 
+/*reset*/
+.portfolio html,body,div,figure,img,header,ul,li,a{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*layout*/
 
+body.portfolio {
+  background-image: url("../img/pattern-2.png");
+}
+.portfolio .col-9{
+	max-width: 900px;
+	width:100%;
+	margin: auto;
+	box-sizing: border-box;
+}
+.portfolio .col-3{
+	max-width: 700px;
+	width: 50%;
+	margin: auto;
+	box-sizing: border-box;
+}
+/*items*/
+.portfolio .images {
+	padding-top: 4em;
+	padding-left: 1em;
+	clear: both;
+}
+.portfolio .menu{
+	padding: 3em 3em;
+}
+.portfolio .wrap{
+	padding: 5em;
+}
+.portfolio img{
+  width: 100%;
+	opacity: 1;
+	transition: opacity .4;
+}
 
+.portfolio figure{
+	float: left;
+	position: relative;
+	line-height: 0;
+	padding: 1em;
 
+}
+.portfolio .img-wrap:before{
+	content: '';
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	right: 1em;
+	bottom: 1em;
+	background-color: #E9E9E9;
+	opacity: 0.7;
+	transition: opacity 1.5s,
+	background-color .4s; 
+}
+.portfolio .img-wrap:hover:before{
+	background-color: #E9E9E9;
+	opacity: 0;
+}
+
+.portfolio h1 {
+	margin-left: 40px;
+  	color: #FA8072;
+	font-size: 3.2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.portfolio nav{
+	margin-top: 55px;
+}
+.portfolio nav ul li {
+	display: inline;
+	font-size: 1.2em;
+}
+.portfolio nav ul li a{
+	text-decoration: none;
+	padding: .5em 1em.5em;
+	color: #182E6F;
+	font-size: 1.1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	transition: color 1s, background-color 1s;
+}
+.portfolio nav ul li a:hover{
+	background-color: #FA8072;
+	color: #fff;
+}
+.portfolio nav a {
+	color: #182E6F;
+}
+
+@media only screen and (min-width: 600px) {
+	header{float: left}
+	nav{float: right;
+		text-align: right;}
+}
