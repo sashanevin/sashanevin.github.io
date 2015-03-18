@@ -2,13 +2,14 @@
 
 
 body {
-	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 1em; /* 45 / 16 = 2.8125em */ 
+	font-style: normal;
+	font-variant: normal; 
+	margin-bottom: 5px;
+	color: #FA8072;
 }
 
-/* HOME PAGE */
-nav {
-	font-family: 'Open Sans Condensed', sans-serif;
-}
 
 /* NAV */
 
@@ -44,6 +45,7 @@ nav {
   	height: 1px;
   	width: 100%;
   	margin-bottom: 100px;
+  	font-family: 'Open Sans Condensed', sans-serif;
 
 
 }
