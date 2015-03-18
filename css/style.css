@@ -368,6 +368,7 @@ body.style-tile {
 
 body.portfolio {
   background-image: url("../img/pattern-2.png");
+  min-width: 470px;
 }
 .portfolio .col-9{
 	max-width: 900px;
