@@ -1,19 +1,40 @@
- /* GLOBAL */
+ /* HOME */
 
-
-body {
-	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 1em; /* 45 / 16 = 2.8125em */ 
-	font-style: normal;
-	font-variant: normal; 
-	margin-bottom: 5px;
-	color: #FA8072;
+main {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 1800px;
+  background: url("../img/home.png");
+  z-index: 1;
 }
 
+header {
+  position: relative;
+  top: 100px;
+}
+h1 {
+  display: inline;
+  color: #ffffff;
+  background: #182E6F;
+  box-shadow: 1.875rem 0 0 #182E6F, -3.75rem 0 0 #182E6F;
+  font: 500 60px/1.5 'Arial Narrow', Arial, sans-serif;
+  text-transform: lowercase;
+  padding: 0 40px;
+}
 
-/* NAV */
+ .home nav {
+ 	display: block;
+  font-size: 150%;
+  color: #FA8072;
+ 	width: 100%;
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	position: absolute;
+ 	padding-left: 30px;
 
-.home a:link {
+}
+a:link {
   color: #FA8072;
   text-align: center;
   text-decoration: none;
@@ -22,34 +43,28 @@ body {
   transition: all .5s ease-in;
 }
 
-.home a:visited {
+a:visited {
   color: #182E6F;
 }
 
-.home a:focus {
+a:focus {
   border: 2px #FA8072;
 }
 
-.home a:hover,
-.home a:active {
+a:hover,
+a:active {
   color: white;
 
 }
 
-.home nav {
-	font-size: 150%;
-	text-align: center;
-	padding: 15px;
-	border-top: 2px dotted #FA8072;
-  	color: #FA8072;
-  	height: 1px;
-  	width: 100%;
-  	margin-bottom: 100px;
-  	font-family: 'Open Sans Condensed', sans-serif;
-
-
+.home div {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.75em;
+	padding-top: 250px;
+	padding-left: 375px;
+	color: white;
+	min-width: 700px;
 }
-
 
 /* ----------BIO PAGE---------- */
 
