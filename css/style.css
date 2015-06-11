@@ -1,40 +1,49 @@
- /* HOME */
 
-main {
+
+.home body {
+	margin: 0;
+}
+
+.home h3 {
   display: block;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 1800px;
-  background: url("../img/home.png");
-  z-index: 1;
-}
-
-header {
-  position: relative;
-  top: 100px;
-}
-.home h1 {
-  display: inline;
-  color: #ffffff;
-  background: #182E6F;
-  box-shadow: 1.875rem 0 0 #182E6F, -3.75rem 0 0 #182E6F;
-  font: 500 60px/1.5 'Arial Narrow', Arial, sans-serif;
-  text-transform: lowercase;
-  padding: 0 40px;
-}
-
- .home nav {
- 	display: block;
-  font-size: 150%;
+  float: left;
+  margin-top: -20px;
+  font-size: 72px;
+  font-family: 'open sans condensed';
+  position: fixed;
   color: #FA8072;
- 	width: 100%;
- 	font-family: 'Open Sans Condensed', sans-serif;
- 	position: absolute;
- 	padding-left: 30px;
+  
+}
+
+.home p {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 21px;
+  	line-height: 1.5;
+  	font-family: 'open sans';
+  	margin: 50px;
+  	color: #182E6F;
 
 }
-a:link {
+
+.beach {
+	height: 400px;
+	background: url("../img/flowermeadow.jpg") no-repeat center top fixed; 
+  background-size: cover;
+}
+
+.beach:first-child {
+	margin-top: 0;
+}
+
+nav {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 36px;
+
+}
+
+.home a:link {
   color: #FA8072;
   text-align: center;
   text-decoration: none;
@@ -43,34 +52,44 @@ a:link {
   transition: all .5s ease-in;
 }
 
-a:visited {
+.home a:visited {
   color: #182E6F;
 }
 
-a:focus {
+.home a:focus {
   border: 2px #FA8072;
 }
 
-a:hover,
-a:active {
-  color: white;
+.home a:hover,
+.home a:active {
+  color: #FA8072;
 
 }
 
-.home div {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.75em;
-	padding-top: 250px;
-	padding-left: 375px;
-	color: white;
-	min-width: 700px;
+
+.home body {
+  background: #f1f1f1;
+  color: #222;
+  font-family: 'Open Sans';
 }
 
-
-
-
-
-
+.wrapper {
+  padding: 100px;
+  width: 500px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.roles {
+    font-size: 30px;
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.roles div {
+    height: 50px;
+    transition: margin-top 1s ease-in-out;
+}
 
 
 
