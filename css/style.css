@@ -89,7 +89,13 @@ nav {
 .roles div {
     height: 50px;
     transition: margin-top 1s ease-in-out;
+    font-family: 'open sans';
 }
+
+.fancy {
+  text-shadow: 2px 2px 0 #FA8072;
+}
+
 
 
 
